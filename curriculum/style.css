@@ -25,6 +25,7 @@
     }
     .contenedorpagina {
         justify-content: center;
+        display: flex; /* Agregado */
     }
     .contenedortextoimagen {
         justify-content: center;
@@ -58,8 +59,6 @@
     .foto {
         width: 272px;
         height: 260px;
-        left: 52px;
-        top: 261px;
         border-radius: 115.5px;
     }
     .subtitulos {
@@ -85,9 +84,6 @@
     header {
         display: flex;
         margin: 0 auto;
-    }
-    h1 {
-        color: rgb(255, 255, 255);
     }
     img {
         padding: 10px;
@@ -124,10 +120,9 @@
         height: 10vh;
     }
 }
-@media (max-width: 768px) 
-{
-    margin auto
 
+@media (max-width: 768px) {
+    /* margin auto */ /* Comentario eliminado */
     nav {
         background-color: #000000;
     }
@@ -155,6 +150,7 @@
     }
     .contenedorpagina {
         justify-content: center;
+        display: flex; /* Agregado */
     }
     .contenedortextoimagen {
         justify-content: center;
@@ -188,8 +184,6 @@
     .foto {
         width: 172px;
         height: 150px;
-        left: 42px;
-        top: 261px;
         border-radius: 175px;
     }
     .subtitulos {
@@ -216,9 +210,6 @@
         display: flex;
         margin: 0 auto;
     }
-    h1 {
-        color: rgb(255, 255, 255);
-    }
     img {
         padding: 10px;
         width: 20%;
@@ -239,16 +230,13 @@
     }
     .claseletras {
         font-family: Arial;
-        color: rgb(226, 226, 226);
-    }
-    header nav {
-        display: flex;
-        list-style: none;
-        padding: 20px;
-        margin: 0 auto;
-    }
-    header a {
-        text-decoration: none;
-        display: flex
+        color: rgb(226, 226, 226)
     }
 }
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
