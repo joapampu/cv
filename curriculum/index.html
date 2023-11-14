@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="style.css" as="style"> 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
@@ -18,11 +17,18 @@
         h1 {
             font-size: large;
             border-color: rgb(221, 0, 0) solid 2px;
+            color: rgb(255, 0, 0);
         }
-    </style>
-    <style>
+
         canvas {
             border: 1px solid black;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -31,12 +37,12 @@
         <header>
             <div class="nav-bg">
                 <nav class="navegacion-principal contenedor">
-    <a href="index.html"></a>
-    <a href="https://matiasgabrielnavarro.github.io/Proyecto/"><li class="claseletras">Proyecto</li></a>
-    <a href="Información.html"><li class="claseletras">Información</li></a>               
-    <a href="Contacto.html"><li class="claseletras">Contacto</li></a>
-</nav>
-                <h1 style="color: rgb(255, 0, 0);"></h1>
+                    <a href="index.html"></a>
+                    <a href="https://matiasgabrielnavarro.github.io/Proyecto/"><li class="claseletras">Proyecto</li></a>
+                    <a href="Información.html"><li class="claseletras">Información</li></a>               
+                    <a href="Contacto.html"><li class="claseletras">Contacto</li></a>
+                </nav>
+                <h1></h1>
             </div>
         </header>
     </div>
@@ -60,5 +66,9 @@
             </div>
         </div>
     </footer>
+
+    
+    <script src="index.js"></script>
+    <button onclick="cambiarColor()">Cambiar Color</button>
 </body>
 </html>
