@@ -1,4 +1,4 @@
-const colores = ['#FF5733', '#33FF57', '#5733FF', '#FFFF33', '#33FFFF','##000000'];
+const colores = ['#FF5733', '#33FF57', '#5733FF', '#FFFF33', '#33FFFF','#000000'];
 
 
 function cambiarColor() {
